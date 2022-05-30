@@ -1,0 +1,60 @@
+import turtle as t
+t.bgcolor("black")
+def curve():
+    for i in range(60):
+        t.forward(1)
+        t.right(1)
+def bottom():
+    t.begin_fill()
+    t.goto(-90, -10)
+    t.pencolor("white")
+    t.left(60)
+    t.forward(70)
+    curve()
+    t.forward(30)
+    curve()
+    t.forward(70)
+    t.right(120)
+    t.forward(20)
+    for i in range(30):
+        t.forward(1)
+        t.right(2)
+    t.forward(70)
+    def leftcurve():
+        for i in range(40):
+            t.forward(1)
+            t.left(3)
+    leftcurve()
+    t.forward(70)
+    for i in range(30):
+        t.forward(1)
+        t.right(2)
+    t.forward(30)
+    t.fillcolor("white")
+    t.end_fill()
+bottom()
+
+t.penup()
+t.goto(-30, 90)
+t.pendown()
+def top():
+    t.begin_fill()
+    t.right(120)
+    t.forward(90)
+    t.right(120)
+    t.forward(60)
+    for i in range(40):
+        t.forward(1)
+        t.right(3)
+    t.forward(60)
+    t.fillcolor("white")
+    t.end_fill()
+top()
+
+t.penup()
+t.goto(-90, -80)
+
+t.write("ADCOM",'false', font=("Verdana",40 ))
+t.pencolor("")
+
+t.done()
