@@ -1,0 +1,238 @@
+import turtle as t
+t.pencolor("black")
+t.speed(1000)
+t.penup()
+t.goto(70, 50)
+t.pendown()
+t.setheading(-70)
+t.pensize(3)
+for i in range(20):
+    t.forward(1)
+    t.right(0.9)
+for i in range(30):
+    t.pensize(5)
+    t.forward(1)
+    t.right(0.9)
+for i in range(60):
+    t.forward(0.5)
+    t.left(1)
+for i in range(100):
+    t.forward(1.5)
+    t.right(1)
+for i in range(100):
+    t.pensize(4)
+    t.forward(1)
+    t.left(2)
+for i in range(50):
+    t.pensize(2)
+    t.forward(1)
+    t.left(2)
+t.penup()
+t.goto(80,-140 )
+t.pendown()
+t.setheading(320)
+
+for i in range(50):
+    t.pensize(2)
+    t.forward(2)
+    t.right(2)
+
+for i in range(80):
+    t.pensize(4)
+    t.forward(2)
+    t.right(1.5)
+
+for i in range(40):
+    t.pensize(5)
+    t.forward(2)
+    t.right(1)
+for i in range(40):
+    t.pensize(3)
+    t.forward(1)
+    t.left(1.5)
+for i in range(20):
+    t.back(1)
+    t.right(1.5)
+t.setheading(250)
+for i in range(90):
+    t.pensize(4)
+    t.forward(1)
+    t.right(2)
+for i in range(60):
+    t.pensize(5)
+    t.forward(1.5)
+    t.left(1.5)
+t.right(120)
+for i in range(20):
+    t.forward(2)
+    t.right(0.5)
+for i in range(80):
+    t.forward(0.5)
+    t.right(1)
+for i in range(30):
+    t.pensize(3)
+    t.forward(1.5)
+    t.right(3)
+t.penup()
+t.goto(-20, -100)
+t.pendown()
+t.left(140)
+for i in range(5):
+    t.forward(2)
+    t.left(0.5)
+for i in range(10):
+    t.pensize(4)
+    t.forward(2)
+    t.left(0.5)
+t.right(140)
+for i in range(30):
+    t.forward(1)
+    t.right(0.7)
+for i in range(15):
+    t.pensize(3)
+    t.forward(1)
+    t.right(0.7)
+t.penup()
+t.goto(70, 30)
+t.pendown()
+t.left(40)
+for i in range(10):
+    t.forward(1)
+    t.right(10)
+for i in range(10):
+    t.pensize(4)
+    t.forward(0.3)
+    t.right(4)
+for i in range(2):
+    t.forward(2)
+    t.right(5)
+for i in range(15):
+    t.pensize(3)
+    t.forward(1)
+    t.left(2)
+t.penup()
+t.goto(70, 51)
+t.pendown()
+t.left(40)
+for i in range(60):
+    t.pensize(5)
+    t.forward(1.5)
+    t.left(1)
+for i in range(50):
+    t.pensize(4)
+    t.forward(1)
+    t.right(1.5)
+for i in range(50):
+    t.pensize(3)
+    t.forward(1)
+    t.left(2)
+t.penup()
+t.goto(70, 51)
+t.pendown()
+t.setheading(110)
+for i in range(50):
+    t.pensize(5)
+    t.forward(1.5)
+    t.left(1)
+for i in range(30):
+    t.pensize(4)
+    t.forward(1)
+    t.left(1.5)
+for i in range(60):
+    t.pensize(3)
+    t.forward(1)
+    t.left(2)
+t.penup()
+t.goto(-10, 140)
+t.pendown()
+t.setheading(110)
+for i in range(20):
+    t.pensize(3)
+    t.forward(1)
+    t.left(4)
+for i in range(20):
+    t.forward(1.4)
+    t.right(4)
+t.left(170)
+for i in range(30):
+    t.pensize(4)
+    t.forward(1)
+    t.right(1.3)
+for i in range(30):
+    t.forward(1)
+    t.left(5)
+t.forward(20)
+for i in range(40):
+    t.forward(1)
+    t.right(5)
+t.pensize(5)
+t.forward(70)
+for i in range(50):
+    t.forward(1.8)
+    t.left(5)
+for i in range(30):
+    t.pensize(3)
+    t.forward(1)
+    t.left(5)
+t.penup()
+t.goto(40, -10)
+t.pendown()
+t.right(70)
+for i in range(20):
+    t.pensize(4)
+    t.forward(1)
+    t.left(2)
+t.pensize(3)
+for i in range(20):
+    t.forward(1)
+    t.right(4)
+t.penup()
+t.goto(40, -20)
+t.pendown()
+t.left(20)
+for i in range(20):
+    t.forward(1)
+    t.left(4)
+for i in range(10):
+    t.forward(1)
+    t.right(4)
+
+t.penup()
+t.goto(40, -20)
+t.pendown()
+t.left(10)
+t.forward(30)
+t.penup()
+t.goto(40, -20)
+t.pendown()
+t.left(70)
+for i in range(34):
+    t.forward(1)
+    t.right(4)
+t.penup()
+t.goto(33, -25)
+t.pendown()
+
+t.setheading(270)
+for i in range(50):
+    t.forward(0.2)
+    t.right(4)
+t.penup()
+t.goto(-100, 170)
+t.pendown()
+t.pencolor("green")
+t.write("HAPPY", 'True', 'right', font=('Century Schoolbook', 40))
+
+t.penup()
+t.goto(140, 170)
+t.pendown()
+t.pencolor("orange")
+t.write("GANESH", 'True', 'right', font=('Century Schoolbook', 40))
+
+t.penup()
+t.goto(450, 170)
+t.pendown()
+t.pencolor("green")
+t.write("CHATURTI", 'True', 'right', font=('Century Schoolbook', 40))
+
+t.done()
