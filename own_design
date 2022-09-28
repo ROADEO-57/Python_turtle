@@ -1,0 +1,30 @@
+import turtle as t
+import colorsys as s
+t.bgcolor("black")
+n=0.0
+
+t.pensize(2)
+t.speed(1000)
+def design():
+    t.penup()
+    t.goto(0,0)
+    t.pendown()
+    t.left(45)
+    t.circle(100,50)
+    t.right(130)
+    for i in range(100):
+        t.forward(3)
+        t.right(1)
+    t.right(70)
+    for i in range(110):
+        t.forward(2.2)
+        t.right(1)
+
+for i in range(200):
+    c = s.hsv_to_rgb(n,1,1)
+    t.color(c)
+    n+=0.005
+    design()
+    t.left(i)
+    design()
+t.done()
