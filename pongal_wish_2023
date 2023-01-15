@@ -1,0 +1,91 @@
+import turtle as r
+r.bgcolor("black")
+r.speed(1000)
+r.begin_fill()
+r.penup()
+r.goto(0,10)
+r.pendown()
+r.pencolor("orange")
+r.pensize(4)
+r.fillcolor("brown")
+for i in range(400):
+    r.forward(3)
+    r.right(1)
+r.end_fill()
+r.begin_fill()
+
+r.left(90)
+r.forward(80)
+r.left(130)
+r.forward(330)
+r.left(130)
+r.forward(85)
+r.fillcolor("orange")
+r.end_fill()
+
+r.penup()
+r.goto(-160, -100)
+r.pendown()
+r.left(30)
+for i in range(47):
+    r.forward(7)
+    r.left(1)
+r.penup()
+r.goto(-165, -110)
+r.pendown()
+r.left(-48)
+for i in range(47):
+    r.forward(7)
+    r.left(1)
+r.forward(3)
+r.penup()
+r.goto(-170, 22)
+r.pendown()
+r.begin_fill()
+r.setheading(120)
+r.pencolor("white")
+for i in range(40):
+    r.forward(4)
+    r.right(4)
+r.left(120)
+for i in range(40):
+    r.forward(4)
+    r.right(4)
+r.left(100)
+for i in range(20):
+    r.forward(5)
+    r.right(4)
+r.left(120)
+
+for i in range(50):
+    r.forward(3)
+    r.right(4)
+
+r.fillcolor("white")
+r.end_fill()
+r.setheading(0)
+r.forward(10)
+r.pensize(20)
+r.left(270)
+r.forward(40)
+r.penup()
+r.goto(-400, 280)
+r.pendown()
+r.pencolor("red")
+
+r.write("HAPPY",font=("Consolas", 50))
+r.penup()
+r.goto(-150, 280)
+
+r.pencolor("light green")
+
+r.write("PONGAL", font=("Cooper", 50))
+
+r.penup()
+r.goto(180, 280)
+
+r.pencolor("yellow")
+
+r.write("2023", font=("Cooper", 50))
+
+r.done()
