@@ -1,0 +1,182 @@
+import turtle as t
+
+t.penup()
+t.goto(-100, -20)
+t.pendown()
+t.begin_fill()
+t.setheading(60)
+t.pencolor("brown")
+t.pensize(4)
+t.forward(200)
+t.right(90)
+t.forward(150)
+t.right(90)
+t.forward(300)
+t.fillcolor("brown")
+t.end_fill()
+t.pencolor("#800080")
+t.back(50)
+t.begin_fill()
+t.left(90)
+t.forward(30)
+t.right(90)
+t.forward(150)
+t.right(90)
+t.forward(200)
+t.right(90)
+t.forward(200)
+t.right(90)
+t.forward(30)
+for i in range(60):
+    t.forward(1)
+    t.right(1)
+for i in range(90):
+    t.forward(1)
+    t.left(1)
+t.right(30)
+t.forward(15)
+t.fillcolor("#800080")
+t.end_fill()
+
+def box():
+    t.begin_fill()
+    for i in range(4):
+        t.forward(50)
+        t.right(90)
+    t.fillcolor("#CD8162")
+    t.end_fill()
+
+t.penup()
+
+t.goto(-80, -20)
+t.pendown()
+t.setheading(60)
+
+t.pencolor("#CD8162")
+
+box()
+
+t.penup()
+t.goto(-50, 40)
+t.pendown()
+t.setheading(60)
+
+
+box()
+
+t.penup()
+t.goto(-20, 100)
+t.pendown()
+t.setheading(60)
+
+
+box()
+
+t.penup()
+t.goto(40, 65)
+t.pendown()
+t.setheading(60)
+
+
+box()
+
+t.penup()
+t.goto(10, 5)
+t.pendown()
+t.setheading(60)
+
+
+box()
+
+t.penup()
+t.goto(-24, -58)
+t.pendown()
+t.setheading(60)
+
+
+box()
+
+t.penup()
+t.goto(-54, -115)
+t.pendown()
+t.setheading(60)
+
+
+box()
+
+
+t.penup()
+t.goto(-110, -80)
+t.pendown()
+t.setheading(60)
+
+
+box()
+
+
+t.penup()
+t.goto(-100, -20)
+t.pendown()
+t.setheading(60)
+t.pencolor("brown")
+t.pensize(4)
+t.forward(200)
+t.right(90)
+t.forward(150)
+t.right(90)
+t.forward(300)
+
+t.pencolor("#800080")
+t.back(50)
+t.begin_fill()
+t.left(90)
+t.forward(30)
+t.right(90)
+t.forward(150)
+t.right(90)
+t.forward(200)
+t.right(90)
+t.forward(200)
+t.right(90)
+t.forward(30)
+for i in range(60):
+    t.forward(1)
+    t.right(1)
+for i in range(90):
+    t.forward(1)
+    t.left(1)
+t.right(30)
+t.forward(15)
+t.fillcolor("#800080")
+t.end_fill()
+
+t.pencolor("#FFA500")
+t.penup()
+t.goto(-190,-180)
+t.pendown()
+t.setheading(60)
+t.forward(150)
+
+t.pencolor("#FFA500")
+t.penup()
+t.goto(-180,-175)
+t.pendown()
+t.setheading(60)
+t.forward(130)
+
+t.pencolor("#FFA500")
+t.penup()
+t.goto(-190,-160)
+t.pendown()
+t.setheading(-30)
+t.forward(130)
+
+t.pencolor("#FFA500")
+t.penup()
+t.goto(-190, -150
+       )
+t.pendown()
+t.setheading(-30)
+t.forward(150)
+
+t.done()
